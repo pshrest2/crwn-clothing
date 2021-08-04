@@ -22,10 +22,11 @@
       padding: 10px 15px;
       cursor: pointer;
       transition: transform 0.3s;
-    }
+      text-transform: uppercase;
 
-    .option:hover {
-      transform: scale(1.2);
+      &:hover {
+        transform: scale(1.2);
+      }
     }
   }
 }
